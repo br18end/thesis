@@ -75,7 +75,8 @@ device drivers >>usb device driver support >>usb modem cdc/acd >>cdc/acd console
 device driver >>serial driver support >>no serial console<br>
 system type>>smt32 peripheral support >>usart1 activado<br>
 device drivers>>serial driver support>>usart1 configuration>>9600 baud rate<br>
-application support >>examples >>serial rx example activado, moisture app example activado<br>
+application support >>examples >>serial rx example activado, moisture app example activado<br><br>
+(moistureapp_main.c, Makefile, Kconfig and Make.defs need to be in a folder inside Nuttx examples)
 *******************************************************
 cd nuttxspace/nuttx/<br>
 make<br>
